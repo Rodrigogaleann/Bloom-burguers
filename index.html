@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bloom Burgers | Las mejores hamburguesas artesanales</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Encabezado / Hero -->
+  <header class="hero">
+    <div class="overlay"></div>
+    <div class="hero-content">
+      <h1 class="logo">BLOOM <span>BURGERS</span></h1>
+      <p class="tagline">Sabor artesanal en cada mordisco 🍔🔥</p>
+      <a href="#menu" class="btn-primary">Ver Menú</a>
+    </div>
+  </header>
+
+  <!-- Sección de Ventajas -->
+  <section class="features">
+    <div class="feature-card">
+      <span>🥩</span>
+      <h3>100% Carne Vacuna</h3>
+      <p>Blend propio de cortes seleccionados diariamente.</p>
+    </div>
+    <div class="feature-card">
+      <span>🍞</span>
+      <h3>Pan Brioche Horneado</h3>
+      <p>Esponjoso, dorado y preparado en el día.</p>
+    </div>
+    <div class="feature-card">
+      <span>🚀</span>
+      <h3>Envío Rápido</h3>
+      <p>Tu burger caliente directo a tu mesa.</p>
+    </div>
+  </section>
+
+  <!-- Sección de Menú -->
+  <section id="menu" class="menu-section">
+    <h2>NUESTRAS BURGERS ESTRELLA</h2>
+    <div class="grid-menu">
+
+      <div class="card">
+        <div class="card-body">
+          <h3>Bloom Classic</h3>
+          <p class="ingredients">Doble medallón de 120g, cheddar, lechuga, tomate y salsa especial Bloom.</p>
+          <span class="price">$8.500</span>
+          <button class="btn-order" onclick="pedirPorWhatsApp('Bloom Classic')">Pedir por WhatsApp</button>
+        </div>
+      </div>
+
+      <div class="card destacada">
+        <span class="badge">Más Vendida</span>
+        <div class="card-body">
+          <h3>Bacon Melt</h3>
+          <p class="ingredients">Doble medallón, triple cheddar, panceta crocante y salsa barbacoa casera.</p>
+          <span class="price">$9.800</span>
+          <button class="btn-order" onclick="pedirPorWhatsApp('Bacon Melt')">Pedir por WhatsApp</button>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-body">
+          <h3>Crispy Veggie</h3>
+          <p class="ingredients">Medallón de garbanzos y hongos, queso cremoso, rúcula y alioli de palta.</p>
+          <span class="price">$8.200</span>
+          <button class="btn-order" onclick="pedirPorWhatsApp('Crispy Veggie')">Pedir por WhatsApp</button>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Pie de página -->
+  <footer>
+    <p>📍 Av. Principal 1234, Tu Ciudad</p>
+    <p>⏰ Martes a Domingos de 19:00 a 00:00 hs</p>
+    <p class="copy">&copy; 2026 Bloom Burgers - Todos los derechos reservados</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
