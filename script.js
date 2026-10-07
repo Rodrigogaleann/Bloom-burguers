@@ -1,5 +1,5 @@
 // Número de WhatsApp del comercio (reemplazá con el número del cliente)
-const TELEFONO_WHATSAPP = "5491112345678";
+const TELEFONO_WHATSAPP = "5491157597489";
 
 function pedirPorWhatsApp(nombreHamburguesa) {
   // Generamos el mensaje automatizado
